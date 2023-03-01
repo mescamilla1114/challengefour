@@ -1,0 +1,92 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --dark: #13293d;
+    --light: #fff;
+    --navlink-color: #b9c6ae;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--dark);
+    color: var(--light);
+  }
+  
+  h1 {
+    font-size: 200%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+  
+  nav a {
+    background-color: unset;
+    color: var(--navlink-color);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: var(--light);
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 20vh;
+    min-width: 95vw;
+    padding-left: 2px;
+    padding-right:2px;
+  }
+
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    
+  }
+
+.VertLine{
+    border-left: 1vw solid black;
+    vertical-align: center;
+    height: 80vh;
+    align-content: center;
+    position: relative;
+    left: 10%;
+}
+
+div p
+{
+ font-weight: 300;  
+ color: rgb(69, 28, 214); 
+ justify-content: left;
+ margin-left: 40%;
+}
+
+div.RoL ul{
+  /* display: inline-flex;
+    flex-direction: row;*/
+    margin-right: 20%;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    display: inline-flex;
+    min-width: 60vw;
+    padding: 2%;
+    background-color: var(--dark);
+    color: var(--light);
+  }
